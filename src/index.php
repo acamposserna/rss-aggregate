@@ -40,7 +40,7 @@
 				$noticia = [];
 				$noticia['titulo'] = $item->title;
 				$noticia['enlace'] = $item->link;
-				$noticia['texto'] = $item->description;
+				$noticia['texto'] = strip_tags$item->description);
 				$noticia['fecha'] = ucfirst(strftime('%A, %e de %B de %Y',strtotime($item->pubDate)));
 				
 				$fuente['noticias'][] = $noticia;
