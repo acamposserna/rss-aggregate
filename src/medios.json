@@ -1,0 +1,26 @@
+{
+	"generalistas":[
+		{
+			"nombre":"El País",
+			"url":"https://elpais.com/",
+			"rss":"https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada"
+		},
+		{
+			"nombre":"El Mundo",
+			"url":"https://www.elmundo.es/",
+			"rss": "https://e00-elmundo.uecdn.es/elmundo/rss/portada.xml"
+		}
+	],
+	"deportivos":[
+		{
+			"nombre":"Marca",
+			"url":"https://www.marca.com/",
+			"rss": "https://e00-marca.uecdn.es/rss/portada.xml"
+		},
+		{
+			"nombre":"Mundo Deportivo",
+			"url":"https://www.mundodeportivo.com/",
+			"rss": "https://www.mundodeportivo.com/rss"
+		}
+	]
+}

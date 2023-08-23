@@ -3,6 +3,13 @@ Agregador de fuentes RSS
 
 Script en PHP para agregar fuentes RSS (versión 2.0)
 
-Las URL's de las fuentes están en el array `$urls`
+Los medios de los que se quieren agregar las fuentes están en el fichero `medios.json` agrupados por tipo de medio.
 
-El máximo número de noticias a mostrar de cada una de las fuentes se define en la constante `MAX_NOTICIAS`
+Se puede filtrar el tipo de medios a mostrar y seleccionar el máximo de noticias.
+
+## Lenguajes
+* **PHP**: para obtener las noticias de las fuentes RSS
+* **Javascript**: para gestionar los filtros
+
+## Licencia
+[MIT](LICENSE)
